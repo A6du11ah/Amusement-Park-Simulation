@@ -1,0 +1,205 @@
+# depslib dependency file v1.0
+1704963823 source:e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\main.cpp
+	<iostream>
+	"ParkSystem.h"
+
+1705084489 source:e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\src\event.cc
+	"event.h"
+	"scheduler.h"
+
+1705084564 e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\include\event.h
+	<cstdlib>
+
+1705084953 e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\include\scheduler.h
+	"event.h"
+	"iostream"
+
+1705099293 source:e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\src\scheduler.cc
+	"scheduler.h"
+
+1704919780 source:e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\src\visitor.cc
+	"visitor.h"
+
+1704919681 e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\include\visitor.h
+	<cstdlib>
+	<iostream>
+	<vector>
+	"scheduler.h"
+
+1704970440 source:e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\src\queue.cc
+	"queue.h"
+
+1704815228 e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\include\queue.h
+	<cstdbool>
+	"visitor.h"
+
+1705099444 source:e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\src\generator.cc
+	"generator.h"
+
+1705031333 e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\include\generator.h
+	<cstdlib>
+	<cstdbool>
+	<math.h>
+	"SimObject.h"
+	"event.h"
+	"scheduler.h"
+	"policy.h"
+
+1704820825 e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\include\simobject.h
+	"queue.h"
+
+1705099262 source:e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\src\server.cc
+	"server.h"
+
+1705098277 e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\include\server.h
+	<cstdbool>
+	"event.h"
+	"scheduler.h"
+	"visitor.h"
+	"queue.h"
+	"SimObject.h"
+
+1705076895 e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\include\parksystem.h
+	<time.h>
+	<math.h>
+	<malloc.h>
+	<cstdbool>
+	<cstdlib>
+	<iomanip>
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<string>
+	"visitor.h"
+	"scheduler.h"
+	"generator.h"
+	"terminator.h"
+	"router.h"
+	"policy.h"
+	"destination.h"
+
+1705074894 e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\include\router.h
+	<time.h>
+	<math.h>
+	<malloc.h>
+	<cstdbool>
+	<cstdlib>
+	<iomanip>
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	"event.h"
+	"scheduler.h"
+	"visitor.h"
+	"SimObject.h"
+	"policy.h"
+
+1705075356 e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\include\rollercoaster.h
+	<time.h>
+	<math.h>
+	<malloc.h>
+	<cstdbool>
+	<cstdlib>
+	<iomanip>
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	"event.h"
+	"scheduler.h"
+	"visitor.h"
+	"SimObject.h"
+	"server.h"
+	"terminal.h"
+	"router.h"
+	"policy.h"
+
+1705097235 e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\include\terminal.h
+	<time.h>
+	<math.h>
+	<malloc.h>
+	<cstdbool>
+	<cstdlib>
+	<iomanip>
+	<iostream>
+	<fstream>
+	<vector>
+	"event.h"
+	"scheduler.h"
+	"visitor.h"
+	"queue.h"
+	"SimObject.h"
+	"server.h"
+
+1705028253 e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\include\policy.h
+	<string>
+	<cstdbool>
+
+1705098852 e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\include\terminator.h
+	<time.h>
+	<math.h>
+	<malloc.h>
+	<cstdbool>
+	<cstdlib>
+	<iomanip>
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	"event.h"
+	"scheduler.h"
+	"visitor.h"
+	"SimObject.h"
+	"generator.h"
+	"server.h"
+	"terminal.h"
+	"router.h"
+	"policy.h"
+
+1705076194 source:e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\src\policy.cc
+	"policy.h"
+
+1704820832 source:e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\src\simobject.cc
+	"SimObject.h"
+
+1705098605 source:e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\src\terminal.cc
+	"terminal.h"
+
+1705091311 source:e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\src\parksystem.cc
+	"ParkSystem.h"
+
+1705032573 source:e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\src\rollercoaster.cc
+	"RollerCoaster.h"
+
+1705099336 source:e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\src\terminator.cc
+	"terminator.h"
+
+1705099362 source:e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\src\router.cc
+	"router.h"
+
+1705076675 e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\include\destination.h
+	<time.h>
+	<math.h>
+	<malloc.h>
+	<cstdbool>
+	<cstdlib>
+	<iomanip>
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<string>
+	"event.h"
+	"scheduler.h"
+	"visitor.h"
+	"SimObject.h"
+	"server.h"
+	"terminal.h"
+	"router.h"
+	"policy.h"
+
+1705076671 source:e:\classroom\lab tasks\cse 4550\project\test\amusement park system\amusement_park_system\src\destination.cc
+	"destination.h"
+

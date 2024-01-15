@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Amusement_Park_System" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Amusement_Park_System" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Amusement_Park_System" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/ParkSystem.h" />
+		<Unit filename="include/SimObject.h" />
+		<Unit filename="include/destination.h" />
+		<Unit filename="include/event.h" />
+		<Unit filename="include/generator.h" />
+		<Unit filename="include/policy.h" />
+		<Unit filename="include/queue.h" />
+		<Unit filename="include/router.h" />
+		<Unit filename="include/scheduler.h" />
+		<Unit filename="include/server.h" />
+		<Unit filename="include/terminal.h" />
+		<Unit filename="include/terminator.h" />
+		<Unit filename="include/visitor.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/ParkSystem.cc" />
+		<Unit filename="src/SimObject.cc" />
+		<Unit filename="src/destination.cc" />
+		<Unit filename="src/event.cc" />
+		<Unit filename="src/generator.cc" />
+		<Unit filename="src/policy.cc" />
+		<Unit filename="src/queue.cc" />
+		<Unit filename="src/router.cc" />
+		<Unit filename="src/scheduler.cc" />
+		<Unit filename="src/server.cc" />
+		<Unit filename="src/terminal.cc" />
+		<Unit filename="src/terminator.cc" />
+		<Unit filename="src/visitor.cc" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
