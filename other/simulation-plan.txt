@@ -1,0 +1,46 @@
+[+] Amusement Park Simulation
+    [+]> Visitors
+         [+]> Group of 1, 2, 3 or 4
+         [+]> Varying Route
+    [+]> Tickets
+         [+]> Entry
+         [+]> Package (Half, Full)
+         [+]> VIP
+         [+]> Ride Based
+    [+]> Systems
+         [+]> Park Management System
+         [+]> Ticket Counter Systems
+              [+]> Entrance Ticket Counter System
+              [+]> North Local Ticket Counter System
+              [+]> South Local Ticket Counter System
+         [+]> Ride Systems
+              [+]> Roller Coaster System
+              [+]> Carousel System
+              [+]> Ferris Wheel System
+              [+]> Cable Car System
+              [+]> Haunted Tunnel System
+              [+]> Water Slide System
+         [+]> Route System
+         [+]> Food System
+
+
+// Change of plan
+-> Ticket Counters:
+   Entrance
+
+-> Destinations:
+   1. Roller Coaster
+   2. Carousel
+   3. Ferris Wheel
+   4. Cable Car
+   5. Water Slide
+   7. Haunted House
+   6. Food Counter
+
+-> General:
+   Generator
+   Router
+   Terminator
+
+-> Sequence:
+   Generator => Entrance => Router <==> [Destinations: 1~6] => Terminator
